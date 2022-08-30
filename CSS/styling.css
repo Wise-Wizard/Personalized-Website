@@ -1,3 +1,21 @@
 body{
     background-color: aqua;
+    text-align: center;
+}
+
+.Container{
+    padding-top: 150px;
+    position: relative;
+}
+
+.Top-Cloud{
+    position: absolute;
+    right: 450px;
+    top: 100px;
+}
+
+.Bottom-Cloud{
+    position: absolute;
+    left: 450px;
+    bottom: 330px;
 }
