@@ -1,12 +1,43 @@
 body{
-    background-color: aqua;
+    background-color: #B1E1FF;
     text-align: center;
     font-family: Garamond,serif;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
 .Top-Container{
     padding-top: 150px;
     position: relative;
+    font-size: 2rem;
+}
+
+h1{
+    color: #9C9EFE;
+}
+
+h3{
+    color: #A66CFF;
+    font-weight: normal;
+    margin-top: auto;
+}
+
+a{
+    color: #9C9EFE;
+    font-weight: bold;
+
+}
+.Skill-Row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.Hobbies-Row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .Top-Cloud{
@@ -20,9 +51,30 @@ body{
     left: 450px;
     bottom: 330px;
 }
-
-.Images{
-    border-radius: 150px;
-    height: 300px;
-    width: 300px;
+.Profile-Image{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.Dev-Image{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.Astro-Image{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+.Anime-Image{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
 }
