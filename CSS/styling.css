@@ -4,12 +4,55 @@ body{
     font-family: Garamond,serif;
     font-size: 1.5em;
     font-style: italic;
+    color: #40451E;
 }
 
 .Top-Container{
     padding-top: 150px;
     position: relative;
     font-size: 2rem;
+}
+.Middle-Container{
+    margin: 100px 0;
+}
+
+.Bottom-Container{
+    background-color: #9C9EFE;
+    padding: 50px 0 20px;
+}
+.buttonClass 
+{
+    font-size:30px;
+    font-family: Garamond, serif;
+    width:140px;
+    height:10px;
+    border-width:1px;
+    color: black;
+    border-color:#9C9EFE;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 100px 140px -70px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#9C9EFE, #A66CFF);
+    padding: 10px;
+  }
+  
+.buttonClass:hover 
+{
+    background: linear-gradient(#408c99, #599bb3);
+}
+
+hr{
+    border-style: dotted;
+    border-bottom: none;
+    size: 10px;
+    border-width: 5px;
+    border-color: #A66CFF;
+    width: 5%;
+    margin: 100px auto;
 }
 
 h1{
@@ -23,9 +66,13 @@ h3{
 }
 
 a{
-    color: #9C9EFE;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
 
+}
+a:hover{
+    background: linear-gradient(#408c99, #599bb3);
 }
 .Skill-Row{
     width: 50%;
